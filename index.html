@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find local businesses in Kampala - salons, restaurants, repair shops, boutiques and more">
+    <title>KampalaBizz - Find Local Businesses in Kampala, Uganda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <svg class="logo-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                    <span class="logo-text">Kampala<span class="accent">Bizz</span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#listings">Browse</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#footer">About</a></li>
+                    <li><a href="#register" class="btn-primary">List Your Business</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-left">
+            <span class="hero-label">Kampala, Uganda</span>
+            <h1 class="hero-title">
+                Find the best<br>
+                local businesses<br>
+                <span class="hero-accent">near you.</span>
+            </h1>
+            <p class="hero-description">
+                Discover salons, restaurants, repair shops, boutiques, and more across every corner of Kampala.
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value">200+</div>
+                    <div class="stat-label">Businesses</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">8</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">12</div>
+                    <div class="stat-label">Areas</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-right">
+            <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=900&h=620&fit=crop&auto=format" alt="Vibrant Kampala market scene with local traders">
+             <div class="hero-card">
+                <div class="hero-card-icon">★</div>
+                <div class="hero-card-content">
+                    <p class="hero-card-label">FEATURED THIS WEEK</p>
+                    <p class="hero-card-title">Zawadi Boutique — Nakasero</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Filter Bar -->
+    <section class="category-bar">
+        <div class="container">
+            <div class="category-scroll">
+                <a href="#listings" class="category-btn active">All</a>
+                <a href="#listings" class="category-btn">✂️ Salons</a>
+                <a href="#listings" class="category-btn">🍴 Food & Drink</a>
+                <a href="#listings" class="category-btn">🔧 Repair Shops</a>
+                <a href="#listings" class="category-btn">🛍️ Boutiques</a>
+                <a href="#listings" class="category-btn">🔨 Hardware</a>
+                <a href="#listings" class="category-btn">💊 Pharmacies</a>
+                <a href="#listings" class="category-btn">📱 Electronics</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Listings -->
+    <main id="listings" class="listings-section">
+        <div class="container">
+            <header class="listings-header">
+                <div>
+                    <h2 class="section-title">All Businesses</h2>
+                    <p class="listings-count">8 listings found</p>
+                </div>
+            </header>
+
+            <div class="business-grid">
+                <!-- Business 1: Nalongo's Hair Palace -->
+                <article class="business-card">
+                    <div class="business-image">
+                     <img src="images/ladies' hair.avif" alt="alt="Nalongo's Hair Palace - Professional salon interior">   
+                        <span class="badge-verified">✓ Verified</span>
+                    </div>
+                    <div class="business-content">
+                        <div class="business-header">
+                            <h3 class="business-name">Nalongo's Hair Palace</h3>
+                            <div class="business-rating">
+                                <span class="rating-star">★</span>
+                                <span class="rating-value">4.8</span>
+                                <span class="rating-count">(124)</span>
+                            </div>
+                        </div>
+                        <p class="business-location">📍 Kikuubo, Kampala Central</p>
+                        <p class="business-description">Kampala's premier salon for all hair types. Over 10 years of trusted service to the community.</p>
+                        <div class="business-services">
+                            <span class="service-tag">Hair Braiding</span>
+                            <span class="service-tag">Relaxers</span>
+                            <span class="service-tag">Weaves</span>
+                            <span class="service-tag">Manicure</span>
+                        </div>
+                        <div class="business-details">
+                            <p class="business-phone">📞 <a href="tel:+256701234567">+256 701 234 567</a></p>
+                            <p class="business-hours">🕐 Mon–Sat, 8am–7pm</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Business 2: Mama Aisha's Kitchen -->
+                <article class="business-card">
+                    <div class="business-image">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=320&fit=crop&auto=format" alt="Mama Aisha's Kitchen - Ugandan traditional food">
+                        <span class="badge-category">Food & Drink</span>
+                        <span class="badge-verified">✓ Verified</span>
+                    </div>
+                    <div class="business-content">
+                        <div class="business-header">
+                            <h3 class="business-name">Mama Aisha's Kitchen</h3>
+                            <div class="business-rating">
+                                <span class="rating-star">★</span>
+                                <span class="rating-value">4.6</span>
+                                <span class="rating-count">(89)</span>
+                            </div>
+                        </div>
+                        <p class="business-location">📍 Wandegeya Market, Kawempe</p>
+                        <p class="business-description">Authentic Ugandan home-cooked meals made fresh every day. Best katogo north of the city centre.</p>
+                        <div class="business-services">
+                            <span class="service-tag">Rolex</span>
+                            <span class="service-tag">Matoke</span>
+                            <span class="service-tag">Beans & Rice</span>
+                            <span class="service-tag">Katogo</span>
+                            <span class="service-tag">Porridge</span>
+                        </div>
+                        <div class="business-details">
+                            <p class="business-phone">📞 <a href="tel:+256772456789">+256 772 456 789</a></p>
+                            <p class="business-hours">🕐 Daily, 7am–9pm</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Business 3: TechFix Kampala -->
+                <article class="business-card">
+                    <div class="business-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=320&fit=crop&auto=format" alt="TechFix Kampala - Electronics repair workshop">
+                        <span class="badge-category">Repair Shops</span>
+                    </div>
+                    <div class="business-content">
+                        <div class="business-header">
+                            <h3 class="business-name">TechFix Kampala</h3>
+                            <div class="business-rating">
+                                <span class="rating-star">★</span>
+                                <span class="rating-value">4.5</span>
+                                <span class="rating-count">(67)</span>
+                            </div>
+                        </div>
+                        <p class="business-location">📍 Nakasero, Kampala Central</p>
+                        <p class="business-description">Fast, affordable electronics repair with same-day service available on most devices.</p>
+                        <div class="business-services">
+                            <span class="service-tag">Phone Repair</span>
+                            <span class="service-tag">Laptop Servicing</span>
+                            <span class="service-tag">Screen Replacement</span>
+                            <span class="service-tag">Data Recovery</span>
+                        </div>
+                        <div class="business-details">
+                            <p class="business-phone">📞 <a href="tel:+256756789012">+256 756 789 012</a></p>
+                            <p class="business-hours">🕐 Mon–Sat, 9am–6pm</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Business 4: Zawadi Boutique -->
+                <article class="business-card">
+                    <div class="business-image">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=320&fit=crop&auto=format" alt="Zawadi Boutique - Fashion clothing store">
+                        <span class="badge-category">Boutiques</span>
+                        <span class="badge-verified">✓ Verified</span>
+                    </div>
+                    <div class="business-content">
+                        <div class="business-header">
+                            <h3 class="business-name">Zawadi Boutique</h3>
+                            <div class="business-rating">
+                                <span class="rating-star">★</span>
+                                <span class="rating-value">4.9</span>
+                                <span class="rating-count">(203)</span>
+                            </div>
+                        </div>
+                        <p class="business-location">📍 Oasis Mall, Nakasero</p>
+                        <p class="business-description">Where contemporary African fashion meets modern style. Bespoke designs available on request.</p>
+                        <div class="business-services">
+                            <span class="service-tag">African Prints</span>
+                            <span class="service-tag">Custom Tailoring</span>
+                            <span class="service-tag">Ready-to-Wear</span>
+                            <span class="service-tag">Accessories</span>
+                        </div>
+                        <div class="business-details">
+                            <p class="business-phone">📞 <a href="tel:+256702345678">+256 702 345 678</a></p>
+                            <p class="business-hours">🕐 Mon–Sun, 10am–8pm</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Business 5: Kirabo Hardware -->
+                <article class="business-card">
+                    <div class="business-image">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=320&fit=crop&auto=format" alt="Kirabo Hardware - Building supplies store">
+                        <span class="badge-category">Hardware</span>
+                    </div>
+                    <div class="business-content">
+                        <div class="business-header">
+                            <h3 class="business-name">Kirabo Hardware & Supplies</h3>
+                            <div class="business-rating">
+                                <span class="rating-star">★</span>
+                                <span class="rating-value">4.3</span>
+                                <span class="rating-count">(45)</span>
+                            </div>
+                        </div>
+                        <p class="business-location">📍 Katwe, Makindye Division</p>
+                        <p class="business-description">Full-range hardware store serving contractors and homeowners across Kampala since 2005.</p>
+                        <div class="business-services">
+                            <span class="service-tag">Building Materials</span>
+                            <span class="service-tag">Plumbing Supplies</span>
+                            <span class="service-tag">Electrical</span>
+                            <span class="service-tag">Paint & Finishes</span>
+                        </div>
+                        <div class="business-details">
+                            <p class="business-phone">📞 <a href="tel:+256774567890">+256 774 567 890</a></p>
+                            <p class="business-hours">🕐 Mon–Sat, 7:30am–6pm</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Business 6: LifeCare Pharmacy -->
+                <article class="business-card">
+                    <div class="business-image">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=320&fit=crop&auto=format" alt="LifeCare Pharmacy - Medical supplies">
+                        <span class="badge-category">Pharmacies</span>
+                        <span class="badge-verified">✓ Verified</span>
+                    </div>
+                    <div class="business-content">
+                        <div class="business-header">
+                            <h3 class="business-name">LifeCare Pharmacy</h3>
+                            <div class="business-rating">
+                                <span class="rating-star">★</span>
+                                <span class="rating-value">4.7</span>
+                                <span class="rating-count">(156)</span>
+                            </div>
+                        </div>
+                        <p class="business-location">📍 Ntinda, Nakawa Division</p>
+                        <p class="business-description">Licensed pharmacy with qualified pharmacists on duty. Delivery available across Kampala.</p>
+                        <div class="business-services">
+                            <span class="service-tag">Prescription Drugs</span>
+                            <span class="service-tag">OTC Medicines</span>
+                            <span class="service-tag">Health Consultations</span>
+                            <span class="service-tag">Home Delivery</span>
+                        </div>
+                        <div class="business-details">
+                            <p class="business-phone">📞 <a href="tel:+256700678901">+256 700 678 901</a></p>
+                            <p class="business-hours">🕐 Daily, 8am–10pm</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Business 7: Fresh Cuts Barbershop -->
+                <article class="business-card">
+                    <div class="business-image">
+                        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=600&h=320&fit=crop&auto=format" alt="Fresh Cuts Barbershop - Men's grooming">
+                        <span class="badge-category">Salons</span>
+                        <span class="badge-verified">✓ Verified</span>
+                    </div>
+                    <div class="business-content">
+                        <div class="business-header">
+                            <h3 class="business-name">Fresh Cuts Barbershop</h3>
+                            <div class="business-rating">
+                                <span class="rating-star">★</span>
+                                <span class="rating-value">4.4</span>
+                                <span class="rating-count">(78)</span>
+                            </div>
+                        </div>
+                        <p class="business-location">📍 Mulago, Kawempe Division</p>
+                        <p class="business-description">Top-notch barbershop for men and boys. Walk-ins always welcome — no appointment needed.</p>
+                        <div class="business-services">
+                            <span class="service-tag">Haircuts</span>
+                            <span class="service-tag">Clean Shave</span>
+                            <span class="service-tag">Beard Trim</span>
+                            <span class="service-tag">Skin Fade</span>
+                        </div>
+                        <div class="business-details">
+                            <p class="business-phone">📞 <a href="tel:+256703891234">+256 703 891 234</a></p>
+                            <p class="business-hours">🕐 Mon–Sun, 8am–8pm</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Business 8: Nile Electronics Hub -->
+                <article class="business-card">
+                    <div class="business-image">
+                        <img src="https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=600&h=320&fit=crop&auto=format" alt="Nile Electronics Hub - Technology store">
+                        <span class="badge-category">Electronics</span>
+                    </div>
+                    <div class="business-content">
+                        <div class="business-header">
+                            <h3 class="business-name">Nile Electronics Hub</h3>
+                            <div class="business-rating">
+                                <span class="rating-star">★</span>
+                                <span class="rating-value">4.2</span>
+                                <span class="rating-count">(34)</span>
+                            </div>
+                        </div>
+                        <p class="business-location">📍 Ben Kiwanuka St, Kampala Central</p>
+                        <p class="business-description">Wide range of electronics at competitive prices. Warranty available on all major products.</p>
+                        <div class="business-services">
+                            <span class="service-tag">TVs & Displays</span>
+                            <span class="service-tag">Sound Systems</span>
+                            <span class="service-tag">Smartphones</span>
+                            <span class="service-tag">Cables & Accessories</span>
+                        </div>
+                        <div class="business-details">
+                            <p class="business-phone">📞 <a href="tel:+256753234567">+256 753 234 567</a></p>
+                            <p class="business-hours">🕐 Mon–Sat, 9am–7pm</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="how-it-works-grid">
+                <div class="how-it-works-left">
+                    <span class="section-label">For Business Owners</span>
+                    <h2 class="how-it-works-title">
+                        Get your business<br>
+                        <span class="how-it-works-accent">in front of thousands.</span>
+                    </h2>
+                    <p class="how-it-works-description">
+                        KampalaBizz connects you with customers actively searching for what you offer across every neighbourhood. Listing is completely free.
+                    </p>
+                    <a href="#register" class="btn-accent-large">Register Your Business →</a>
+                </div>
+                <div class="how-it-works-steps">
+                    <div class="step">
+                        <span class="step-number">01</span>
+                        <div class="step-content">
+                            <h3 class="step-title">Fill the form</h3>
+                            <p class="step-description">Enter your business name, category, location, phone, and services offered.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">02</span>
+                        <div class="step-content">
+                            <h3 class="step-title">Quick review</h3>
+                            <p class="step-description">Our team reviews your submission to ensure quality. Usually done within 24 hours.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">03</span>
+                        <div class="step-content">
+                            <h3 class="step-title">Reach customers</h3>
+                            <p class="step-description">Your listing goes live. Customers find you through search, browse, and area filters.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="register" class="register-section">
+        <div class="container">
+            <div class="register-form-wrapper">
+                <div class="register-header">
+                    <h2 class="register-title">List Your Business</h2>
+                    <p class="register-subtitle">Free listing. Go live within 24 hours.</p>
+                </div>
+                <form class="register-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="business-name">Business Name *</label>
+                            <input type="text" id="business-name" name="business-name" placeholder="e.g. Nalongo's Hair Palace" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="owner-name">Owner Name *</label>
+                            <input type="text" id="owner-name" name="owner-name" placeholder="Your full name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="category">Category *</label>
+                            <select id="category" name="category" required>
+                                <option value="">Select a category</option>
+                                <option value="Salons">Salons</option>
+                                <option value="Food & Drink">Food & Drink</option>
+                                <option value="Repair Shops">Repair Shops</option>
+                                <option value="Boutiques">Boutiques</option>
+                                <option value="Hardware">Hardware</option>
+                                <option value="Pharmacies">Pharmacies</option>
+                                <option value="Electronics">Electronics</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+256 7XX XXX XXX" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location / Area *</label>
+                        <input type="text" id="location" name="location" placeholder="e.g. Kikuubo, Kampala Central" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="services">Services Offered *</label>
+                        <input type="text" id="services" name="services" placeholder="e.g. Hair Braiding, Relaxers, Manicure" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="hours">Opening Hours</label>
+                        <input type="text" id="hours" name="hours" placeholder="e.g. Mon–Sat, 8am–6pm">
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Business Description</label>
+                        <textarea id="description" name="description" rows="3" placeholder="Tell customers what makes your business special..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit Listing →</button>
+                    <p class="form-note">Listing is free. Your submission will be reviewed before going live.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                        <span class="footer-logo-text">Kampala<span class="accent">Bizz</span></span>
+                    </div>
+                    <p class="footer-description">
+                        Connecting Kampala customers with local businesses since 2024. Built for the community, by the community.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="#listings">All Businesses</a></li>
+                        <li><a href="#listings">Salons</a></li>
+                        <li><a href="#listings">Food & Drink</a></li>
+                        <li><a href="#listings">Repair Shops</a></li>
+                        <li><a href="#listings">Boutiques</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Owners</h4>
+                    <ul class="footer-links">
+                        <li><a href="#register">List Your Business</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#footer">Contact Us</a></li>
+                        <li><a href="#footer">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2024 KampalaBizz. Made with care for Kampala's communities.</span>
+                <div class="footer-legal">
+                    <a href="#footer">Privacy Policy</a>
+                    <a href="#footer">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
